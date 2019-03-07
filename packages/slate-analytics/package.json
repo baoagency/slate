@@ -31,5 +31,8 @@
     "mock-fs": "^4.4.2",
     "mute-stream": "^0.0.7"
   },
-  "trackingVersion": 1
+  "trackingVersion": 1,
+  "publishConfig": {
+    "access": "public"
+  }
 }

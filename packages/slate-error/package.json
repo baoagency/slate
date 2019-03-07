@@ -9,5 +9,8 @@
   "bugs": {
     "url": "https://github.com/shopify/slate/issues"
   },
-  "homepage": "https://github.com/shopify/slate"
+  "homepage": "https://github.com/shopify/slate",
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/Shopify/slate/issues"
   },
-  "homepage": "https://github.com/Shopify/slate#readme"
+  "homepage": "https://github.com/Shopify/slate#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

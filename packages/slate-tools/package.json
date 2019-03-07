@@ -85,5 +85,8 @@
   },
   "devDependencies": {
     "mock-fs": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

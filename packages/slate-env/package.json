@@ -16,5 +16,8 @@
   },
   "devDependencies": {
     "glob": "^7.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
