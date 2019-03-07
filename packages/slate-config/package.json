@@ -1,6 +1,6 @@
 {
   "name": "@by-association-only/slate-config",
-  "version": "1.0.0-beta.17.2",
+  "version": "1.0.0-beta.17.3",
   "description": "Generate configurations for Slate packages by applying values from slate.config.js to override default values",
   "main": "index.js",
   "repository": "https://github.com/Shopify/slate/tree/1.x/packages/slate-config",
