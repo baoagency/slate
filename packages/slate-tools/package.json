@@ -13,6 +13,7 @@
   },
   "engine": ">=8.9.4",
   "dependencies": {
+    "@by-association-only/concat-style-loader": "1.0.0-beta.17",
     "@by-association-only/slate-analytics": "1.0.0-beta.17",
     "@by-association-only/slate-config": "1.0.0-beta.17",
     "@by-association-only/slate-cssvar-loader": "1.0.0-beta.17",
@@ -33,7 +34,6 @@
     "browser-sync": "^2.24.6",
     "chalk": "2.3.2",
     "clean-webpack-plugin": "0.1.19",
-    "concat-style-loader": "1.0.0-beta.17",
     "console-control-strings": "^1.1.0",
     "copy-webpack-plugin": "^4.2.3",
     "cors": "^2.8.4",
@@ -88,5 +88,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "3b7b6bb1c8a6ea6631d45c268ae27f0e5b626871"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "concat-style-loader",
+  "name": "@by-association-only/concat-style-loader",
   "version": "1.0.0-beta.17",
   "description": "Finds CSS custom properties (variables) in your stylesheets and replaces them with their corresponding liquid variable",
   "main": "index.js",
@@ -20,5 +20,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "3b7b6bb1c8a6ea6631d45c268ae27f0e5b626871"
 }
