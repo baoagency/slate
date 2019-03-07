@@ -1,6 +1,6 @@
 {
   "name": "@by-association-only/slate-env",
-  "version": "1.0.0-beta.16",
+  "version": "1.0.0-beta.17",
   "description": "Manages the environment variables which are needed by Slate to interact with Shopify servers.",
   "main": "index.js",
   "repository": "https://github.com/Shopify/slate/tree/1.x/packages/slate-env",
@@ -11,7 +11,7 @@
   },
   "homepage": "https://github.com/shopify/slate#readme",
   "dependencies": {
-    "@by-association-only/slate-config": "1.0.0-beta.14",
+    "@by-association-only/slate-config": "1.0.0-beta.17",
     "dotenv": "^4.0.0"
   },
   "devDependencies": {
