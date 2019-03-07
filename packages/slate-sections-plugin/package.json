@@ -1,5 +1,5 @@
 {
-  "name": "@shopify/slate-sections-plugin",
+  "name": "@by-association-only/slate-sections-plugin",
   "version": "1.0.0-beta.17.1",
   "main": "index.js",
   "license": "MIT",
@@ -18,5 +18,6 @@
     "jest": "^24.1.0",
     "memory-fs": "^0.4.1",
     "webpack": "^4.29.3"
-  }
+  },
+  "gitHead": "92e6b22bd93ff7ba661f8cfd2d164f27b6ab0685"
 }

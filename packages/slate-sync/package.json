@@ -1,5 +1,5 @@
 {
-  "name": "@shopify/slate-sync",
+  "name": "@by-association-only/slate-sync",
   "version": "1.0.0-beta.17.1",
   "description": "Slate's Shopify API client which handles all theme development requests",
   "repository": "https://github.com/Shopify/slate/tree/1.x/packages/slate-sync",
@@ -11,15 +11,16 @@
   },
   "engine": ">=8.9.4",
   "dependencies": {
-    "@shopify/slate-analytics": "1.0.0-beta.17.1",
-    "@shopify/slate-config": "1.0.0-beta.14",
-    "@shopify/slate-env": "1.0.0-beta.17.1",
-    "@shopify/themekit": "0.6.12",
+    "@by-association-only/slate-analytics": "1.0.0-beta.17.1",
+    "@by-association-only/slate-config": "1.0.0-beta.14",
+    "@by-association-only/slate-env": "1.0.0-beta.17.1",
+    "@by-association-only/themekit": "0.6.12",
     "array-flatten": "^2.1.1",
     "chalk": "2.3.2",
     "figures": "^2.0.0",
     "inquirer": "^5.0.1",
     "jest": "22.4.2",
     "react-dev-utils": "0.5.2"
-  }
+  },
+  "gitHead": "92e6b22bd93ff7ba661f8cfd2d164f27b6ab0685"
 }

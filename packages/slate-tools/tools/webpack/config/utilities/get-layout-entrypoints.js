@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const SlateConfig = require('@shopify/slate-config');
+const SlateConfig = require('@by-association-only/slate-config');
 const config = new SlateConfig(require('../../../../slate-tools.schema'));
 
 module.exports = function() {

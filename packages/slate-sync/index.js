@@ -1,9 +1,9 @@
 const chalk = require('chalk');
 const figures = require('figures');
 const https = require('https');
-const themekit = require('@shopify/themekit').command;
-const slateEnv = require('@shopify/slate-env');
-const SlateConfig = require('@shopify/slate-config');
+const themekit = require('@by-association-only/themekit').command;
+const slateEnv = require('@by-association-only/slate-env');
+const SlateConfig = require('@by-association-only/slate-config');
 
 const config = new SlateConfig(require('./slate-sync.schema'));
 

@@ -18,7 +18,7 @@ test('has a trackingVersion field in package.json', () => {
 
 describe('init()', () => {
   test('returns contents of .slaterc file', async () => {
-    const rc = require('@shopify/slate-rc');
+    const rc = require('@by-association-only/slate-rc');
     const mock = require('mock-fs');
     const spy = jest.spyOn(rc, 'get');
     const analytics = require('../index');
@@ -34,7 +34,7 @@ describe('init()', () => {
   });
 
   test("creates a .slaterc file if it doesn't alraedy exist", () => {
-    const rc = require('@shopify/slate-rc');
+    const rc = require('@by-association-only/slate-rc');
     const mock = require('mock-fs');
     const spy = jest.spyOn(rc, 'generate');
     const analytics = require('../index');
@@ -50,7 +50,7 @@ describe('init()', () => {
 
   describe('prompt new user for tracking consent and updates .slaterc', () => {
     test('if config.trackingVersion key is undefined (new user)', async () => {
-      const rc = require('@shopify/slate-rc');
+      const rc = require('@by-association-only/slate-rc');
       const analytics = require('../index');
       const prompt = require('../prompt');
       const mock = require('mock-fs');
@@ -72,7 +72,7 @@ describe('init()', () => {
     });
 
     test('if config.trackingVersion value is defined and but needs to be updated', async () => {
-      const rc = require('@shopify/slate-rc');
+      const rc = require('@by-association-only/slate-rc');
       const analytics = require('../index');
       const prompt = require('../prompt');
       const mock = require('mock-fs');

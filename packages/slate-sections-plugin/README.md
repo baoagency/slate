@@ -1,4 +1,4 @@
-# @shopify/slate-sections-plugin
+# @by-association-only/slate-sections-plugin
 
 The plugin allows developers to create Shopify theme sections from a variety of files contained in a folder, and combines these files into a single Liquid section file for use on Shopify servers.
 
@@ -7,19 +7,19 @@ The plugin allows developers to create Shopify theme sections from a variety of 
 First install the plugin
 
 ```
-npm install @shopify/slate-sections-plugin --save-dev
+npm install @by-association-only/slate-sections-plugin --save-dev
 ```
 
 or
 
 ```
-yarn add @shopify/slate-sections-plugin --dev
+yarn add @by-association-only/slate-sections-plugin --dev
 ```
 
 Then add it to your webpack config, an example below.
 
 ```js
-const SlateSectionsPlugin = require('@shopify/slate-sections-plugin');
+const SlateSectionsPlugin = require('@by-association-only/slate-sections-plugin');
 
 const slateSectionsOptions = {
   from: '/absolute/path/to/sections/source',
