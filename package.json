@@ -1,5 +1,5 @@
 {
-  "name": "slate",
+  "name": "@by-association-only/slate",
   "author": "Shopify Inc.",
   "description": "A theme scaffold and command line tool for developing Shopify themes.",
   "keywords": [

@@ -41,7 +41,7 @@ Starter Theme comes with [Babel](https://babeljs.io/) preconfigured with [`shopi
 
 `.env`
 
-Slate will use the environment variables declared in this file to connect to deploy files to your Shopify store. For more information, visit the [`@shopify/slate-env` docs](deploy-environments).
+Slate will use the environment variables declared in this file to connect to deploy files to your Shopify store. For more information, visit the [`@by-association-only/slate-env` docs](deploy-environments).
 
 This file, along with any other `.env.{environment}` files, contain sensitive information and should not be commited to Github. These environment files are ignored by default in `.gitignore`.
 
@@ -69,7 +69,7 @@ The `package.json` includes NPM/Yarn scripts for you to be able to use Slate Too
 
 `slate.config.js`
 
-The Slate config file enables users to customize Slate to their specific needs. For more information, visit the [`@shopify/slate-config` docs](slate-configuration).
+The Slate config file enables users to customize Slate to their specific needs. For more information, visit the [`@by-association-only/slate-config` docs](slate-configuration).
 
 ### 7. Yarn.lock
 

@@ -9,7 +9,7 @@ Finds CSS custom properties (variables) in your stylesheets and replaces them wi
 ## Install
 
 ```bash
-npm install --save-dev @shopify/slate-cssvar-loader
+npm install --save-dev @by-association-only/slate-cssvar-loader
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ module.exports = {
         test: /\.s[ac]ss$/,
         use: [
           {
-            loader: '@shopify/slate-cssvar-loader'
+            loader: '@by-association-only/slate-cssvar-loader'
           },
           { loader: 'css-loader' },
           { loader: 'sass-loader' }

@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const archiver = require('archiver');
 const chalk = require('chalk');
-const {event} = require('@shopify/slate-analytics');
-const SlateConfig = require('@shopify/slate-config');
+const {event} = require('@by-association-only/slate-analytics');
+const SlateConfig = require('@by-association-only/slate-config');
 
 const config = new SlateConfig(require('../../slate-tools.schema'));
 

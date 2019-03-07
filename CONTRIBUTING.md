@@ -44,7 +44,7 @@ _Note: replace "your-username" with your GitHub handle_
 yarn bootstrap
 ```
 
-This command will install project dependencies and make sure any references to Slate packages use the local versions of those packages instead of the version hosted on NPM. For example, in the `package.json` of `@shopify/slate-tools`, there is a dependency `@shopify/slate-env`. Instead of downloading `@shopify/slate-env` from NPM, we link to the copy found in the `packages/slate-env` folder.
+This command will install project dependencies and make sure any references to Slate packages use the local versions of those packages instead of the version hosted on NPM. For example, in the `package.json` of `@by-association-only/slate-tools`, there is a dependency `@by-association-only/slate-env`. Instead of downloading `@by-association-only/slate-env` from NPM, we link to the copy found in the `packages/slate-env` folder.
 
 #### 3. Make some changes and write some tests for those changes. Run the tests with:
 
@@ -97,7 +97,7 @@ yarn link
 4.  Now in your theme project, type the following to complete the link to your local Slate Tools project:
 
 ```
-yarn link @shopify/slate-tools
+yarn link @by-association-only/slate-tools
 ```
 
 That's it! Now when you run any Slate Tools commands, they should be run using your local version of Slate Tools and not the version downloaded from NPM.

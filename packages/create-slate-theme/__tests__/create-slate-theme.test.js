@@ -22,7 +22,7 @@ const CLONE_BRANCH_COMMAND = `git clone
   "${path.resolve(TEST_PROJECT)}"
   --single-branch`;
 
-jest.mock('@shopify/slate-env', () => {
+jest.mock('@by-association-only/slate-env', () => {
   return {create: jest.fn()};
 });
 

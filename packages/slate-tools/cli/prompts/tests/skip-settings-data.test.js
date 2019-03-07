@@ -8,7 +8,7 @@ jest.mock('inquirer', () => {
   return {prompt: jest.fn(() => Promise.resolve({ignoreSettingsData: true}))};
 });
 
-jest.mock('@shopify/slate-env', () => {
+jest.mock('@by-association-only/slate-env', () => {
   let __ignoreValue = '';
   return {
     __setIgnoreValue: (value) => (__ignoreValue = value),
@@ -18,7 +18,7 @@ jest.mock('@shopify/slate-env', () => {
 });
 
 const inquirer = require.requireMock('inquirer');
-const env = require.requireMock('@shopify/slate-env');
+const env = require.requireMock('@by-association-only/slate-env');
 
 describe('promptIfSettingsData()', () => {
   afterEach(() => {

@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const {ConcatSource, RawSource} = require('webpack-sources');
 const _ = require('lodash');
-const SlateConfig = require('@shopify/slate-config');
+const SlateConfig = require('@by-association-only/slate-config');
 const config = new SlateConfig(require('../slate-tools/slate-tools.schema'));
 
 const DEFAULT_GENERIC_TEMPLATE_NAME = 'template.liquid';

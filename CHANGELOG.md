@@ -200,7 +200,7 @@ There is no longer seperate development or production configurations. A configur
 #### :rocket: Enhancement
 
 * `slate-config`, `slate-cssvar-loader`, `slate-env`, `slate-rc`, `slate-sync`, `slate-tools`
-  * [#725](https://github.com/Shopify/slate/pull/725) Simplify @shopify/slate-config and refactor where it's used. ([@t-kelly](https://github.com/t-kelly))
+  * [#725](https://github.com/Shopify/slate/pull/725) Simplify @by-association-only/slate-config and refactor where it's used. ([@t-kelly](https://github.com/t-kelly))
 
 #### :bug: Bug Fix
 
@@ -210,7 +210,7 @@ There is no longer seperate development or production configurations. A configur
 #### :memo: Documentation
 
 * `slate-config`
-  * [#729](https://github.com/Shopify/slate/pull/729) Update @shopify/slate-config README. ([@t-kelly](https://github.com/t-kelly))
+  * [#729](https://github.com/Shopify/slate/pull/729) Update @by-association-only/slate-config README. ([@t-kelly](https://github.com/t-kelly))
 
 #### :house: Internal
 
@@ -667,7 +667,7 @@ You now must also have a `src/assets/scripts/layout` folder and a `src/assets/sc
 **Merged pull requests:**
 
 * Docs new getting started [\#205](https://github.com/Shopify/slate/pull/205) ([NathanPJF](https://github.com/NathanPJF))
-* Use @shopify/slate-tools v0.3.3 [\#203](https://github.com/Shopify/slate/pull/203) ([NathanPJF](https://github.com/NathanPJF))
+* Use @by-association-only/slate-tools v0.3.3 [\#203](https://github.com/Shopify/slate/pull/203) ([NathanPJF](https://github.com/NathanPJF))
 * 0.11.0 [\#202](https://github.com/Shopify/slate/pull/202) ([NathanPJF](https://github.com/NathanPJF))
 * Help users avoid resetting their theme data [\#201](https://github.com/Shopify/slate/pull/201) ([t-kelly](https://github.com/t-kelly))
 * Update settings for header section [\#198](https://github.com/Shopify/slate/pull/198) ([t-kelly](https://github.com/t-kelly))
