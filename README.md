@@ -2,6 +2,8 @@
 
 ![slate animated banner](https://user-images.githubusercontent.com/4837696/47506317-cbe22400-d83d-11e8-9867-1dc874943833.gif)
 
+# This has been forked by https://byassociationonly.com for internal use until the project is back out of Low Maintenance
+
 ## ⚠ Slate on Low Maintenance
 Due to project priority and resource constraints, this project is currently on low maintenance. We recognize that there are a lot of activities around this package. However, we are unable to accommodate the maintenance this project requires.
 
