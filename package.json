@@ -1,6 +1,6 @@
 {
-  "name": "slate",
-  "private": true,
+  "name": "@by-association-only/slate",
+  "private": false,
   "author": "Shopify Inc.",
   "description": "A theme scaffold and command line tool for developing Shopify themes.",
   "keywords": [
@@ -49,5 +49,6 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "version": "1.0.0-beta.17"
 }
